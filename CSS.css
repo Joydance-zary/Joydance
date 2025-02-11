@@ -409,13 +409,12 @@ html, aktualnosci {
         width: 90%;
     }
 
-    /* Zaktualizowane style dla image-container */
     .image-container {
         order: 2; 
-        margin: 0 auto; /* Centrowanie */
+        margin: 0 auto; 
         width: 100%;
-        margin-top: 20px; /* Odstęp między tekstem a obrazkiem */
-        display: block; /* Wymuszenie blokowego układu */
+        margin-top: 20px; 
+        display: block; 
     }
 
     .footer {
@@ -446,5 +445,35 @@ html, aktualnosci {
         color: rgba(255, 255, 255, 0.5);
         line-height:20px;
     }
+
+ 
+    .gallery img:hover {
+        transform: scale(3);  /* Powiększ zdjęcie 3 razy */
+        position: absolute;   /* Zmieniamy pozycję zdjęcia, aby mogło się przesunąć */
+        top: 50%;             /* Ustawiamy zdjęcie na środku ekranu */
+        left: 50%;
+        transform: translate(-50%, -50%) scale(3); /* Przesuwamy zdjęcie w lewo i w górę oraz powiększamy */
+        z-index: 1000;        /* Ustawiamy wysoki z-index, aby zdjęcie było na wierzchu */
+    }
+
+    .images-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Efekt powiększenia przy hover w wersji mobilnej */
+    .images-container img:hover {
+        transform: scale(2);  /* Powiększamy zdjęcie */
+        position: absolute;  /* Zmieniamy pozycjonowanie, by zdjęcie było wyśrodkowane */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(2);  /* Ustawiamy na środku ekranu */
+        z-index: 1000;
+    }
+
+
+
+
+
 
 }
