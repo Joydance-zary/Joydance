@@ -409,6 +409,35 @@ html, aktualnosci {
         order: 1; /* Ensure text comes above the image */
     }
 
+    .footer {
+        text-align: center;
+        padding: 15px 0;  /* Możesz zmniejszyć padding, jeśli chcesz, aby stopka była bardziej kompaktowa */
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        line-height: 1.2; /* Zmniejszamy odstęp między wierszami w stopce */
+    }
+
+    .footer-container a {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        line-height: 1.2; /* Zmniejszamy odstęp między linkami w stopce */
+    }
+
+    .footer-container a:hover {
+        color: white;
+    }
+
+    .footer-copyright {
+        margin-top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 1.2; /* Zmniejszamy odstęp w tekście copyright */
+    }
+
 
 
 
