@@ -387,7 +387,7 @@ html, aktualnosci {
     }
 
     .text-container {
-        width: 95%;
+        width: 200%;
         margin: 0;
         order: 1;
     }
@@ -396,13 +396,13 @@ html, aktualnosci {
         font-size: 26px;
         text-align: center;
         margin-bottom: 15px;
-        width: 95%; /* Zmieniono na 95% szerokości */
+        width: 200%; /
         order: 1;
     }
 
     .text-container p {
         font-size: 18px;
-        width: 95%;
+        width: 200%;
     }
 
     .profile-image {
