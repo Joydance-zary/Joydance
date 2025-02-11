@@ -375,7 +375,7 @@ html, aktualnosci {
     }
     .text-container {
         width: 95%;  /* Dodano szerokość 95% dla .text-container */
-        margin: 0 auto; /* Centrowanie kontenera */
+        margin: 0; /* Centrowanie kontenera */
         order: 1;
     }
 
@@ -438,7 +438,7 @@ html, aktualnosci {
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
-        line-height: 1.2; /* Zmniejszamy odstęp między wierszami w stopce */
+        line-height: 0.5; /* Zmniejszamy odstęp między wierszami w stopce */
     }
 
     .footer-container a {
@@ -458,6 +458,6 @@ html, aktualnosci {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.5);
-        line-height: 1.2; /* Zmniejszamy odstęp w tekście copyright */
+        line-height: 0.5; /* Zmniejszamy odstęp w tekście copyright */
     }
 }
