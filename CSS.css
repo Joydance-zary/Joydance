@@ -418,6 +418,10 @@ html, aktualnosci {
         flex-direction: column; /* Teraz elementy są ustawiane pionowo */
     }
 
+    .text-container {
+        order: 1; /* Zapewnienie, że tekst jest nad obrazkiem */
+    }
+
     /* Zmiana: obrazek teraz jest pod tekstem */
     .image-container {
         order: 2; /* Zmieniono kolejność, obrazek jest teraz poniżej tekstu */
@@ -426,27 +430,26 @@ html, aktualnosci {
         margin-top: 20px; /* Dodana przestrzeń między tekstem a obrazkiem */
     }
 
-    /* Zmiana: tekst jest teraz nad obrazkiem */
-    .text-container {
-        order: 1; /* Zapewnienie, że tekst jest nad obrazkiem */
-    }
+  
+   
 
     /* Dostosowanie stopki w wersji mobilnej */
     .footer {
         text-align: center;
-        padding: 15px 0;  /* Możesz zmniejszyć padding, jeśli chcesz, aby stopka była bardziej kompaktowa */
+        padding: 10px 0;  /* Zmniejszenie paddingu, aby stopka była niższa */
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
-        line-height: 0.5; /* Zmniejszamy odstęp między wierszami w stopce */
+        line-height: 1.2;
     }
+  
 
     .footer-container a {
         color: rgba(255, 255, 255, 0.8);
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: none;
         transition: color 0.3s ease;
-        line-height: 0.5; /* Zmniejszamy odstęp między linkami w stopce */
+        line-height:1.2; /* Zmniejszamy odstęp między linkami w stopce */
     }
 
     .footer-container a:hover {
@@ -458,6 +461,6 @@ html, aktualnosci {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.5);
-        line-height: 0.5; /* Zmniejszamy odstęp w tekście copyright */
+        line-height: 1.2; /* Zmniejszamy odstęp w tekście copyright */
     }
 }
