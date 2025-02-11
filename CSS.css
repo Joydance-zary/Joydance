@@ -367,36 +367,7 @@ html, aktualnosci {
         padding-top: 30px;
     }
 
-    /* Zmiana: kontener "about" teraz używa 90% szerokości */
-    .about-container {
-        display: block;
-        width: 90%; /* Zmieniono na 90% szerokości */
-        padding: 20px;
-    }
-    .text-container {
-        width: 95%;  /* Dodano szerokość 95% dla .text-container */
-        margin: 0; /* Centrowanie kontenera */
-        order: 1;
-    }
-
-    /* Zmiana: szerokość nagłówka tekstu teraz jest 95% */
-    .text-container h2 {
-        font-size: 26px;
-        margin-bottom: 15px;
-        width: 100%; /* Zmieniono na 95% szerokości */
-        order: 1;
-    }
-
-    /* Zmiana: szerokość tekstu w kontenerze teraz to 95% */
-    .text-container p {
-        font-size: 18px;
-        width: 95%;
-    }
-
-    /* Zmiana: obrazek teraz ma 100% szerokości, aby wypełnić kontener */
-    .profile-image {
-        width: 90%;
-    }
+    
 
     /* Zmiana: układ kontenera z danymi kontaktowymi teraz jest pionowy */
     .contact-container {
@@ -425,9 +396,39 @@ html, aktualnosci {
     /* Zmiana: obrazek teraz jest pod tekstem */
     .image-container {
         order: 2; /* Zmieniono kolejność, obrazek jest teraz poniżej tekstu */
-        margin-right: 0;
+        margin: 0 auto;
         width: 100%; /* Obrazek wypełnia całą szerokość kontenera */
         margin-top: 20px; /* Dodana przestrzeń między tekstem a obrazkiem */
+    }
+    /* Zmiana: kontener "about" teraz używa 90% szerokości */
+    .about-container {
+        display: block;
+        width: 90%; /* Zmieniono na 90% szerokości */
+        padding: 20px;
+    }
+    .text-container {
+        width: 95%;  /* Dodano szerokość 95% dla .text-container */
+        margin: 0; /* Centrowanie kontenera */
+        order: 1;
+    }
+
+    /* Zmiana: szerokość nagłówka tekstu teraz jest 95% */
+    .text-container h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        width: 100%; /* Zmieniono na 95% szerokości */
+        order: 1;
+    }
+
+    /* Zmiana: szerokość tekstu w kontenerze teraz to 95% */
+    .text-container p {
+        font-size: 18px;
+        width: 200%;
+    }
+
+    /* Zmiana: obrazek teraz ma 100% szerokości, aby wypełnić kontener */
+    .profile-image {
+        width: 90%;
     }
 
   
