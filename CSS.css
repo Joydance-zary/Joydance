@@ -347,9 +347,9 @@ html, aktualnosci {
 
 @media (max-width: 768px) {
     html, body {
-        height: 100%;  /* Zapewnia pełną wysokość strony */
-        margin: 0;     /* Usunięcie domyślnego marginesu */
-        padding: 0;    /* Usunięcie domyślnego paddingu */
+        height: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     h1 {
@@ -367,9 +367,6 @@ html, aktualnosci {
         padding-top: 30px;
     }
 
-    
-
-    /* Zmiana: układ kontenera z danymi kontaktowymi teraz jest pionowy */
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -377,81 +374,65 @@ html, aktualnosci {
         text-align: center;
     }
 
-    /* Zmiana: pozycja logo, teraz znajduje się niżej */
     .logo {
         order: 1;
-        margin: 20px 0 0 0; /* Dodana przestrzeń nad logo */
+        margin: 20px 0 0 0;
         width: 150px;
     }
 
-    /* Zmiana: ustawienie sekcji "O mnie" w kolumnie */
-    .about-container {
-        flex-direction: column; /* Teraz elementy są ustawiane pionowo */
-    }
-
-    .text-container {
-        order: 1; /* Zapewnienie, że tekst jest nad obrazkiem */
-    }
-
-    /* Zmiana: obrazek teraz jest pod tekstem */
-    .image-container {
-        order: 2; /* Zmieniono kolejność, obrazek jest teraz poniżej tekstu */
-        margin: 0 auto;
-        width: 100%; /* Obrazek wypełnia całą szerokość kontenera */
-        margin-top: 20px; /* Dodana przestrzeń między tekstem a obrazkiem */
-    }
-    /* Zmiana: kontener "about" teraz używa 90% szerokości */
     .about-container {
         display: block;
-        width: 90%; /* Zmieniono na 90% szerokości */
+        width: 90%;
         padding: 20px;
     }
+
     .text-container {
-        width: 95%;  /* Dodano szerokość 95% dla .text-container */
-        margin: 0; /* Centrowanie kontenera */
+        width: 95%;
+        margin: 0;
         order: 1;
     }
 
-    /* Zmiana: szerokość nagłówka tekstu teraz jest 95% */
     .text-container h2 {
         font-size: 26px;
         text-align: center;
         margin-bottom: 15px;
-        width: 200%; /* Zmieniono na 95% szerokości */
+        width: 95%; /* Zmieniono na 95% szerokości */
         order: 1;
     }
 
-    /* Zmiana: szerokość tekstu w kontenerze teraz to 95% */
     .text-container p {
         font-size: 18px;
-        width: 200%;
+        width: 95%;
     }
 
-    /* Zmiana: obrazek teraz ma 100% szerokości, aby wypełnić kontener */
     .profile-image {
         width: 90%;
     }
 
-  
-   
+    /* Zaktualizowane style dla image-container */
+    .image-container {
+        order: 2; 
+        margin: 0 auto; /* Centrowanie */
+        width: 100%;
+        margin-top: 20px; /* Odstęp między tekstem a obrazkiem */
+        display: block; /* Wymuszenie blokowego układu */
+    }
 
-    /* Dostosowanie stopki w wersji mobilnej */
     .footer {
         text-align: center;
-        padding: 10px 0;  /* Zmniejszenie paddingu, aby stopka była niższa */
+        padding: 10px 0;
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
         line-height: 1.2;
     }
-  
 
     .footer-container a {
         color: rgba(255, 255, 255, 0.8);
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: none;
         transition: color 0.3s ease;
-        line-height:1.2; /* Zmniejszamy odstęp między linkami w stopce */
+        line-height:1.2;
     }
 
     .footer-container a:hover {
@@ -463,6 +444,7 @@ html, aktualnosci {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.5);
-        line-height: 1.2; /* Zmniejszamy odstęp w tekście copyright */
+        line-height:20px;
     }
+
 }
