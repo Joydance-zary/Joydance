@@ -352,7 +352,7 @@ html, aktualnosci {
     }
     
     h1 span {
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 3px;
         display: block;
     }
@@ -362,15 +362,21 @@ html, aktualnosci {
     }
 
     .about-container {
-        padding: 20px;
+        display: block; 
+        width: 90%; 
+        padding: 20px; 
     }
 
     .text-container h2 {
         font-size: 26px;
+        margin-bottom: 15px; 
+        width: 80%;
+        order: 1;
     }
 
     .text-container p {
         font-size: 18px;
+        width: 95%;
     }
 
     .profile-image {
