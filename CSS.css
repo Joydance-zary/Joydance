@@ -407,7 +407,7 @@ html, aktualnosci {
     }
 
     .profile-image {
-        width: 90%;
+        width: 100%;
         margin: 0 auto; 
     }
 
@@ -447,8 +447,5 @@ html, aktualnosci {
         color: rgba(255, 255, 255, 0.5);
         line-height:20px;
     }
-
- 
-
 
 }
