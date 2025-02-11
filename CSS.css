@@ -391,7 +391,8 @@ html, aktualnosci {
     }
     .logo {
         order: 1;
-        margin: 0 auto;
+        margin: 20px 0 0 0; /* Dodajemy przestrzeń nad logo */
+        width: 150px;
     }
     .about-container {
         flex-direction: column; /* Stack the image below the text */
