@@ -425,7 +425,7 @@ html, aktualnosci {
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
-        line-height: 20px;
+        line-height: 5px;
     }
 
     .footer-container a {
@@ -433,7 +433,7 @@ html, aktualnosci {
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: none;
         transition: color 0.3s ease;
-        line-height:20px;
+        line-height:5px;
     }
 
     .footer-container a:hover {
@@ -445,7 +445,7 @@ html, aktualnosci {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.5);
-        line-height:20px;
+        line-height:5px;
     }
 
 }
