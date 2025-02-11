@@ -449,19 +449,6 @@ html, aktualnosci {
     }
 
  
-           /* Efekt powiększenia przy hover w wersji mobilnej */
-    .images-container img:hover {
-        transform: scale(2);  /* Powiększamy zdjęcie */
-        position: absolute;  /* Zmieniamy pozycjonowanie, by zdjęcie było wyśrodkowane */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) scale(2);  /* Ustawiamy na środku ekranu */
-        z-index: 1000;
-    }
-
-
-
-
 
 
 }
