@@ -423,7 +423,7 @@ html, aktualnosci {
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
-        line-height: 1.2;
+        line-height: 20px;
     }
 
     .footer-container a {
@@ -431,7 +431,7 @@ html, aktualnosci {
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: none;
         transition: color 0.3s ease;
-        line-height:1.2;
+        line-height:20px;
     }
 
     .footer-container a:hover {
@@ -447,21 +447,7 @@ html, aktualnosci {
     }
 
  
-    .gallery img:hover {
-        transform: scale(3);  /* Powiększ zdjęcie 3 razy */
-        position: absolute;   /* Zmieniamy pozycję zdjęcia, aby mogło się przesunąć */
-        top: 50%;             /* Ustawiamy zdjęcie na środku ekranu */
-        left: 50%;
-        transform: translate(-50%, -50%) scale(3); /* Przesuwamy zdjęcie w lewo i w górę oraz powiększamy */
-        z-index: 1000;        /* Ustawiamy wysoki z-index, aby zdjęcie było na wierzchu */
-    }
-
-    .images-container img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Efekt powiększenia przy hover w wersji mobilnej */
+           /* Efekt powiększenia przy hover w wersji mobilnej */
     .images-container img:hover {
         transform: scale(2);  /* Powiększamy zdjęcie */
         position: absolute;  /* Zmieniamy pozycjonowanie, by zdjęcie było wyśrodkowane */
