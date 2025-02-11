@@ -407,7 +407,7 @@ html, aktualnosci {
     }
 
     .profile-image {
-        width: 100%;
+        width: 90%;
         margin: 0 0 0 3px; 
     }
 
@@ -421,31 +421,33 @@ html, aktualnosci {
 
     .footer {
         text-align: center;
-        padding: 10px 0;
+        padding: 20px 0; /* Dodajemy przestrzeń na górze i dole stopki */
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.4);
         color: white;
-        line-height: 5px;
     }
-
+    
+    .footer-container {
+        display: flex;
+        justify-content: center; /* Wyśrodkowanie linków */
+        gap: 20px; /* Dodajemy przestrzeń między linkami */
+        margin-bottom: 20px; /* Przestrzeń między linkami a prawami autorskimi */
+    }
+    
     .footer-container a {
         color: rgba(255, 255, 255, 0.8);
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: none;
         transition: color 0.3s ease;
-        line-height:5px;
     }
-
+    
     .footer-container a:hover {
         color: white;
     }
-
+    
     .footer-copyright {
-        margin-top: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.5);
-        line-height:5px;
     }
-
 }
