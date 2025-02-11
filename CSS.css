@@ -352,7 +352,7 @@ html, aktualnosci {
     }
     
     h1 span {
-        font-size: 25px;
+        font-size: 27px;
         margin-top: 3px;
         display: block;
     }
@@ -361,54 +361,66 @@ html, aktualnosci {
         padding-top: 30px;
     }
 
+    /* Zmiana: kontener "about" teraz używa 90% szerokości */
     .about-container {
-        display: block; 
-        width: 90%; 
-        padding: 20px; 
+        display: block;
+        width: 90%; /* Zmieniono na 90% szerokości */
+        padding: 20px;
     }
 
+    /* Zmiana: szerokość nagłówka tekstu teraz jest 95% */
     .text-container h2 {
         font-size: 26px;
-        margin-bottom: 15px; 
-        width: 80%;
+        margin-bottom: 15px;
+        width: 95%; /* Zmieniono na 95% szerokości */
         order: 1;
     }
 
+    /* Zmiana: szerokość tekstu w kontenerze teraz to 95% */
     .text-container p {
         font-size: 18px;
         width: 95%;
     }
 
+    /* Zmiana: obrazek teraz ma 100% szerokości, aby wypełnić kontener */
     .profile-image {
-        width: 100%;
+        width: 90%;
     }
-  
+
+    /* Zmiana: układ kontenera z danymi kontaktowymi teraz jest pionowy */
     .contact-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
+    /* Zmiana: pozycja logo, teraz znajduje się niżej */
     .logo {
         order: 1;
-        margin: 20px 0 0 0; /* Dodajemy przestrzeń nad logo */
+        margin: 20px 0 0 0; /* Dodana przestrzeń nad logo */
         width: 150px;
     }
+
+    /* Zmiana: ustawienie sekcji "O mnie" w kolumnie */
     .about-container {
-        flex-direction: column; /* Stack the image below the text */
+        flex-direction: column; /* Teraz elementy są ustawiane pionowo */
     }
 
+    /* Zmiana: obrazek teraz jest pod tekstem */
     .image-container {
-        order: 2; /* Move the image below the text */
+        order: 2; /* Zmieniono kolejność, obrazek jest teraz poniżej tekstu */
         margin-right: 0;
-        width: 100%; /* Make the image take full width in mobile */
-        margin-top: 20px; /* Add some spacing between the text and image */
+        width: 100%; /* Obrazek wypełnia całą szerokość kontenera */
+        margin-top: 20px; /* Dodana przestrzeń między tekstem a obrazkiem */
     }
 
+    /* Zmiana: tekst jest teraz nad obrazkiem */
     .text-container {
-        order: 1; /* Ensure text comes above the image */
+        order: 1; /* Zapewnienie, że tekst jest nad obrazkiem */
     }
 
+    /* Dostosowanie stopki w wersji mobilnej */
     .footer {
         text-align: center;
         padding: 15px 0;  /* Możesz zmniejszyć padding, jeśli chcesz, aby stopka była bardziej kompaktowa */
@@ -437,9 +449,4 @@ html, aktualnosci {
         color: rgba(255, 255, 255, 0.5);
         line-height: 1.2; /* Zmniejszamy odstęp w tekście copyright */
     }
-
-
-
-
 }
-
