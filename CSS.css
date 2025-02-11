@@ -403,6 +403,7 @@ html, aktualnosci {
     .text-container p {
         font-size: 18px;
         width: 200%;
+        text-align: justify;
     }
 
     .profile-image {
