@@ -345,3 +345,34 @@ html, aktualnosci {
   
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    h1 span {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .container {
+        padding-top: 30px;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .text-container h2 {
+        font-size: 26px;
+    }
+
+    .text-container p {
+        font-size: 18px;
+    }
+
+    .profile-image {
+        width: 100%;
+    }
+}
+
