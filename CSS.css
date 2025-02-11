@@ -346,6 +346,12 @@ html, aktualnosci {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        height: 100%;  /* Zapewnia pełną wysokość strony */
+        margin: 0;     /* Usunięcie domyślnego marginesu */
+        padding: 0;    /* Usunięcie domyślnego paddingu */
+    }
+    
     h1 {
         font-size: 70px;
         margin-top: 30px;
