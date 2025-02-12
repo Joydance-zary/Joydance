@@ -347,7 +347,24 @@ html, aktualnosci {
 }
 
 @media (max-width: 768px) {
+
+    .video-background video,
+    .video-background img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        min-width: 100vw;
+        min-height: 100vh;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+    }
+
     html, body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: normal;
         height: 100%;
         margin: 0;
         padding: 0;
