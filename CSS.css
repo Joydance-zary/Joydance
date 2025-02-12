@@ -6,6 +6,10 @@ body {
     color: white;
     line-height: 1.6;
 }
+.wavy-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:normal;
+}
 
 .video-background {
     position: fixed;
@@ -390,6 +394,7 @@ html, aktualnosci {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        
     }
 
     .logo {
