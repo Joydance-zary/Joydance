@@ -20,3 +20,19 @@ document.getElementById('goBackBtn').addEventListener('click', function (e) {
     window.history.back();
 });
 
+document.getElementById("menuIcon").addEventListener("click", function() {
+    var menu = document.getElementById("dropdownMenu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+});
+
+document.addEventListener("click", function(event) {
+    var menu = document.getElementById("dropdownMenu");
+    var icon = document.getElementById("menuIcon");
+    if (!menu.contains(event.target) && !icon.contains(event.target)) {
+        menu.style.display = "none";
+    }
+});
