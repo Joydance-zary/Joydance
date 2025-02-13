@@ -6,6 +6,17 @@ body {
     color: white;
     line-height: 1.6;
 }
+.menu-icon {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    background-color: rgba(216, 168, 227, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+}
 .dropdown-menu {
     display: none;
     position: fixed;
