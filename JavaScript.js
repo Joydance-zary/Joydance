@@ -20,6 +20,9 @@ document.getElementById('goBackBtn').addEventListener('click', function (e) {
     window.history.back();
 });
 
+
+
+
 document.getElementById("menuIcon").addEventListener("click", function() {
     var menu = document.getElementById("dropdownMenu");
 
