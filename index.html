@@ -27,7 +27,7 @@
         <h1>
             <a href="index.html">Joy Dance <span>zajęcia taneczne dla dziewczynek w Żarach</span></a>
         </h1>
-        
+
         <div class="menu-icon" id="menuIcon">☰</div>
         <div class="dropdown-menu" id="dropdownMenu">
             <a href="index.html">Strona główna</a>
@@ -112,5 +112,25 @@
  
 
     <script src="JavaScript.js"></script>
+    <script>
+        document.getElementById("menuIcon").addEventListener("click", function() { 
+            var menu = document.getElementById("dropdownMenu");
+        
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        });
+        
+        document.addEventListener("click", function(event) {
+            var menu = document.getElementById("dropdownMenu");
+            var icon = document.getElementById("menuIcon");
+        
+            if (!menu.contains(event.target) && !icon.contains(event.target)) {
+                menu.style.display = "none";
+            }
+        });
+        </script>
 </body>
 </html>
