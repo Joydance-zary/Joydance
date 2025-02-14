@@ -534,12 +534,12 @@ html, aktualnosci {
         color: rgba(255, 255, 255, 0.5);
     }
 
-    
+
     .wavy-text {
         display: none; /* Ukrywa napis "Zapraszam do kontaktu" */
     }
 
     .contact-container div {
-        margin-top: -20px; /* Przesuwa dane kontaktowe wyżej */
+        margin-top: -10px; /* Przesuwa dane kontaktowe wyżej */
     }
 }
