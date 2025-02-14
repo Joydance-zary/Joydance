@@ -7,15 +7,14 @@ body {
     line-height: 1.6;
 }
 .rodo-standardy .dropdown-menu {
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: max-content;
 }
 
+/* Wyśrodkowanie każdego linku w menu */
 .rodo-standardy .dropdown-menu a {
     display: block;
+    text-align: center;
     padding: 10px;
 }
 .menu-icon {
@@ -34,7 +33,7 @@ body {
     position: fixed;
     top: 50px;
     right: 15px;
-    background-color: rgb(70, 1, 112);
+    background-color: rgb(70, 1, 112, 0.6);
     color: #d3b0eb;
     padding: 10px;
     border-radius: 8px;
